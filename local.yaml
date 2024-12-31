@@ -1,0 +1,10 @@
+- name: Initial server
+  hosts: localhost
+  tasks:
+    - name: Ping Host
+      ansible.builtin.ping:
+      
+    - name: Print message
+      ansible.builtin.debug:
+        msg: Hello World
+
