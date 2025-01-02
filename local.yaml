@@ -34,3 +34,8 @@
         cmd: make CMAKE_BUILD_TYPE=RelWithDebInfo
         chdir: /srv/checkout/
 
+    - name: Install Neovim
+      shell: 
+        cmd: sudo make install
+        chdir: /srv/checkout/
+
