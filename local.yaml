@@ -32,5 +32,5 @@
     - name: Build Neovim
       shell: 
         cmd: make CMAKE_BUILD_TYPE=RelWithDebInfo
-        chdir: /srv/checkout/neovim/
+        chdir: /srv/checkout/
 
